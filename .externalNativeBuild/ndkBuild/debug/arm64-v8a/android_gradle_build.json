@@ -1,0 +1,113 @@
+{
+  "buildFiles": [
+    "E:\\TestApp\\FeedEx-master\\jni\\Android.mk",
+    "E:\\TestApp\\FeedEx-master\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\v-chira\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\TestApp\\FeedEx-master\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\TestApp\\FeedEx-master\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/TestApp/FeedEx-master/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\TestApp\\FeedEx-master\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "mp3lame-debug-arm64-v8a": {
+      "buildCommand": "C:\\Users\\v-chira\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\TestApp\\FeedEx-master\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\TestApp\\FeedEx-master\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/TestApp/FeedEx-master/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\TestApp\\FeedEx-master\\build\\intermediates\\ndkBuild\\debug\\lib E:/TestApp/FeedEx-master/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmp3lame.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "mp3lame",
+      "files": [
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\cgnet_swara_activity_lame_SimpleLame.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\VbrTag.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\bitstream.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\encoder.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\fft.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\gain_analysis.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\id3tag.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\lame.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\mpglib_interface.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\newmdct.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\presets.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\psymodel.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\quantize.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\quantize_pvt.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\reservoir.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\set_get.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\tables.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\takehiro.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\util.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\vbrquantize.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "E:\\TestApp\\FeedEx-master\\jni\\libmp3lame\\version.c",
+          "flags": "-gcc-toolchain C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IE:/TestApp/FeedEx-master/jni/include -IE:/TestApp/FeedEx-master/jni -DSTDC_HEADERS -DANDROID -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/v-chira/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android"
+        }
+      ],
+      "output": "E:\\TestApp\\FeedEx-master\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libmp3lame.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "C:\\Users\\v-chira\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

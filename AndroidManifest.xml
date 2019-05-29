@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.cgnet.swara"
-    android:installLocation="auto"
-    android:versionCode="12"
-    android:versionName="2.0.0" >
-
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
+    package="org.cgnet.swara2"
+    android:installLocation="auto">
 	
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -25,22 +19,22 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     
     <application
-        android:name="org.cgnet.swara.MainApplication"
+        android:name="org.cgnet.swara2.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/cgnet_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Light"
         tools:replace="android:allowBackup">
-        <service android:name="org.cgnet.swara.service.RefreshService" />
-        <service android:name="org.cgnet.swara.service.FetcherService" />
+        <service android:name="org.cgnet.swara2.service.RefreshService" />
+        <service android:name="org.cgnet.swara2.service.FetcherService" />
    
         <provider
-            android:name="org.cgnet.swara.provider.FeedDataContentProvider"
+            android:name="org.cgnet.swara2.provider.FeedDataContentProvider"
             android:authorities="net.fred.feedex.provider.FeedData"
             android:exported="true" />
 
         <activity
-            android:name="org.cgnet.swara.activity.HomeActivity"
+            android:name="org.cgnet.swara2.activity.HomeActivity"
             android:label="@string/app_name" >
         </activity>
          
@@ -53,12 +47,12 @@
             android:label="@string/about_feedex"
             android:launchMode="singleTask" />  -->
         <activity
-            android:name="org.cgnet.swara.activity.EditFeedsListActivity"
+            android:name="org.cgnet.swara2.activity.EditFeedsListActivity"
             android:label="@string/feeds"
             android:launchMode="singleTask" />
         
         <activity
-            android:name="org.cgnet.swara.activity.EntryActivity"
+            android:name="org.cgnet.swara2.activity.EntryActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask" >
             <intent-filter>
@@ -69,12 +63,12 @@
         </activity>
         
         <activity
-            android:name="org.cgnet.swara.activity.GeneralPrefsActivity"
+            android:name="org.cgnet.swara2.activity.GeneralPrefsActivity"
             android:label="@string/menu_settings"
             android:launchMode="singleTask" />
         
          
-        <activity android:name="org.cgnet.swara.activity.EditFeedActivity" >
+        <activity android:name="org.cgnet.swara2.activity.EditFeedActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
 
@@ -100,26 +94,26 @@
 
         
  
-        <receiver android:name="org.cgnet.swara.receiver.BootCompletedBroadcastReceiver" >
+        <receiver android:name="org.cgnet.swara2.receiver.BootCompletedBroadcastReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
         
-        <receiver android:name="org.cgnet.swara.receiver.ConnectionChangeReceiver" >
+        <receiver android:name="org.cgnet.swara2.receiver.ConnectionChangeReceiver" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name="org.cgnet.swara.receiver.ChooserReceiver" >
+        <receiver android:name="org.cgnet.swara2.receiver.ChooserReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.CHOOSER" />
                 <action android:name="org.cgnet.swara.FILE_SELECTED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name="org.cgnet.swara.service.RefreshService$RefreshAlarmReceiver" />
+        <receiver android:name="org.cgnet.swara2.service.RefreshService$RefreshAlarmReceiver" />
 
         <activity
             android:name="cgnet.swara.activity.MainActivity"
@@ -154,7 +148,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="org.cgnet.swara.provider"
+            android:authorities="org.cgnet.swara2.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

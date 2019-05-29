@@ -10,10 +10,10 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.cgnet.swara.BuildConfig;
-import org.cgnet.swara.MainApplication;
-import org.cgnet.swara.MainApplication.TrackerName;
-import org.cgnet.swara.R;
+import org.cgnet.swara2.BuildConfig;
+import org.cgnet.swara2.MainApplication;
+import org.cgnet.swara2.MainApplication.TrackerName;
+import org.cgnet.swara2.R;
 
 import android.Manifest;
 import android.app.Activity;
@@ -44,7 +44,7 @@ import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
 import static com.msr.sneakernetcommon.R.string.phone_input;
-import static org.cgnet.swara.utils.UiUtils.promptForPhoneNumber;
+import static org.cgnet.swara2.utils.UiUtils.promptForPhoneNumber;
 
 /** This is the first screen of the CGNet Swara App. 
  *  It allows the user to either record a message (which is then sent to a central location) 
@@ -409,7 +409,7 @@ public class MainActivity extends Activity {
 	/** Opens a new activity to allow the user to view and listen to 
 	 *  recordings. */
 	private void loadRecordings() {
-		Intent intent = new Intent(this, org.cgnet.swara.activity.HomeActivity.class);
+		Intent intent = new Intent(this, org.cgnet.swara2.activity.HomeActivity.class);
 		startActivity(intent); 
 	}
 

@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import org.cgnet.swara.R;
+import org.cgnet.swara2.R;
 
 import java.io.FileWriter;
 import java.io.IOException;

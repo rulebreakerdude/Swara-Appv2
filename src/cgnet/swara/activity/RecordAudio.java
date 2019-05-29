@@ -5,9 +5,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Calendar;
 
-import org.cgnet.swara.MainApplication;
-import org.cgnet.swara.MainApplication.TrackerName;
-import org.cgnet.swara.R;
+import org.cgnet.swara2.MainApplication;
+import org.cgnet.swara2.MainApplication.TrackerName;
+import org.cgnet.swara2.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;

@@ -10,7 +10,7 @@ import android.content.Context;
 import android.net.ConnectivityManager; 
 import android.content.BroadcastReceiver;
 
-import org.cgnet.swara.R;
+import org.cgnet.swara2.R;
 
 /** A BroadcastReciever responds to broadcast messages from the system, 
  *  this class specifically responds to changes in network connectivity.  

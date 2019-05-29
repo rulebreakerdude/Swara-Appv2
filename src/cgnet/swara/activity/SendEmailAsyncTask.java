@@ -8,7 +8,7 @@ import java.util.Scanner;
 import android.os.AsyncTask;
 import android.content.Context;
 
-import org.cgnet.swara.R;
+import org.cgnet.swara2.R;
 
 import java.io.FileInputStream;
 import java.io.InputStreamReader;

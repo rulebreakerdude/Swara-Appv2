@@ -290,6 +290,7 @@
     <string name="rss_feed_url">http://cgnetswara.org//podcast-bultoo.php</string>
     <string name="whatsapp_package">com.whatsapp</string>
     <string name="carrier_name">carrier_name</string>
+    <string name="sponsor_message">Sponsored by</string>
 
 
 </resources>
